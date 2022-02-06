@@ -1,0 +1,47 @@
+.list-todo-container {
+    button {
+        cursor: pointer;
+    }
+
+    .add-todo {
+
+        .btn-add {
+            margin-left: 8px;
+        }
+    }
+
+    .list-todo-content {
+        width: 400px;
+        margin: 0 auto;
+
+        .todo-child {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid grey;
+            padding: 12px;
+
+            .btn-option {
+                margin: 0 8px;
+                width: 50px;
+            }
+
+            &:first-child {
+                border-top: 1px solid grey;
+            }
+
+            .todo-child-title {
+                font-size: 16px;
+                margin-left: 16px;
+                width: 200px;
+                max-width: 300px;
+                text-align: left;
+            }
+
+            .input-edit {
+                display: flex;
+                align-items: center;
+                
+            }
+        }
+    }
+}
